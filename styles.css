@@ -1,0 +1,48 @@
+p, h1, h2, h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div.top-navigation-bar {
+    background-color: #506474;
+}
+
+p.top-navigation-bar-right {
+    padding-right: 1rem;
+    color: white;
+    text-align: end;
+}
+
+p.top-navigation-bar-left {
+    padding-left: 1rem;
+    color: white;
+    text-align: start;
+}
+
+p.telephone-header {
+    padding-right: 0rem;
+    text-align: end;
+}
+
+div.news {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+div.posts {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #7d92a3;
+}
+
+p.post-fecha {
+    color: rgb(92, 91, 91);
+    font-style: italic;
+}
+
+a.top-navigation-bar {
+    color: white;
+}
