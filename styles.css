@@ -46,3 +46,19 @@ p.post-fecha {
 a.top-navigation-bar {
     color: white;
 }
+
+div.login-container {
+    color: white;
+    padding-left: 24rem;
+    padding-right: 24rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+div.login-form {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
