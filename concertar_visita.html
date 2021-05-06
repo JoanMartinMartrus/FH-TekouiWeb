@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container mt-5">
+  <div class="page-header">
+    <div class="container">
+      <div class="row">
+        <div class="col align-self-end" style="padding-left: 0rem;">
+          <img class="logo-corporatiu" src="logo.png" width="140">
+        </div>
+        <div class="col align-self-center">
+          <img class="logo-corporatiu" src="bcn-skyline.png" height=10% widht=5%>
+        </div>
+        <div class="col align-self-end">
+          <p class="telephone-header">tlf. 932 222 222</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="top-navigation-bar">
+    <div class="Container">
+      <div class="row align-items-center">
+        <div class="col-sm-4 align-self-center">
+          <div class="row align-items-center">
+            <div class="col align-self-center">
+              <p class = "top-navigation-bar-left"> <a class="top-navigation-bar"; href="http://127.0.0.1:5500/zona-cliente-login.html" title="Zona Clientes">Zona Clientes</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-8 align-self-center">
+          <div class="row align-items-center">
+            <div class="col-sm align-self-center">
+              <p class = "top-navigation-bar-right"><a class="top-navigation-bar"; href="http://127.0.0.1:5500/index.html" title="Centros">Centros</a></p>
+            </div>
+            <div class="col-sm align-self-center">
+              <p class = "top-navigation-bar-right"><a class="top-navigation-bar"; href="http://127.0.0.1:5500/index.html" title="Sobre nosotros">Sobre nosotros</a></p>
+            </div>
+            <div class="col-sm align-self-center">
+              <p class = "top-navigation-bar-right"><a class="top-navigation-bar"; href="http://127.0.0.1:5500/index.html" title="Contacto">Contacto</a></p>
+            </div>
+            <div class="col-sm align-self-center">
+              <p class = "top-navigation-bar-right"><a class="top-navigation-bar"; href="http://127.0.0.1:5500/index.html" title="FAQ">FAQ</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="arrange-visit-container">
+    <div class="Contain border rounded" style="background-color: #7d92a3;">
+      <div class="arrange-visit-text">
+        <h3 class="text-center">Concertar visita</h3>
+        <form>
+          <div class="form-group">
+            <label for="inputSpeciality">Especialidad: </label>
+            <select id="inputSpeciality">
+              <option value="initialOption">------------------------</option>
+              <option value="alergología">Alergología</option>
+              <option value="cardiología">Cardiología</option>
+              <option value="endocrinología">Endocrinología</option>
+              <option value="geriatría">Geriatría</option>
+              <option value="medicina-deporte">Medicina del deporte</option>
+              <option value="medicina-familiar">Medicina familiar</option>
+              <option value="neurología">Neurología</option>
+              <option value="pediatría">Pediatría</option>
+              <option value="psiquiatría">Psiquiatría</option>
+              <option value="reumatología">Reumatología</option>
+              <option value="traumatología">Traumatología</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="suggested-hours">Horas sugeridas: </label>
+            <div id="suggested-hours">
+              <button type="button">16:15, viernes 6 de Mayo</button>
+              <button type="button">18:00, lunes 10 de Mayo</button>
+              <button type="button">15:45, miércoles 12 de Mayo</button>
+              <button type="button">17:00, viernes 14 de Mayo</button>
+              <button type="button">17:30, lunes 17 de Mayo</button>
+            </div>
+          </div>
+          <div class="form-group">Ninguna se adapta? Configure una hora que se adecue:</div>
+          <div class="form-group">
+            <label for="date-selection">Selecciona la fecha y la hora: </label>
+            <input type="date" name="date" id="date-selection">
+            <label for="hour-selection">Hora: </label>
+            <input type="time" name="time" id="hour-selection">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="col text-center">
+    <button type="submit" class="btn btn-primary" onClick="location.href='http://127.0.0.1:5500/confirmacion-visita.html'">Confirmar visita</button>
+  </div>
+</div>
+<!-- Site footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <h6>About</h6>
+        <p class="text-justify"><b>Tekoui</b></p>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+        <h6>Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="http://127.0.0.1:5500/index.html"><b>Sobre nosotros</b></a></li>
+          <li><a href="http://127.0.0.1:5500/index.html"><b>Contacto</b></a></li>
+          <li><a href="http://127.0.0.1:5500/index.html"><b>Centros</b></a></li>
+          <li><a href="http://127.0.0.1:5500/index.html"><b>FAQ</b></a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+      <a href="#">Tekoui</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
