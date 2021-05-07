@@ -85,6 +85,40 @@ div.arrange-visit-container{
     border: none;
 }
 
+.btn-outline-primary{
+  background-color: #ab48cd;
+  text-align: center;
+  border: none;
+  color:white;
+}
+
+.btn-outline-primary:hover{
+  background-color: #46006c;
+  text-align: center;
+  border: none;
+}
+
+.list-group-item-primary{
+  background-color: #7D92A3;
+  color: white;
+}
+
+.button-container {
+  padding-left: 115vh;
+  padding-bottom: 1vh;
+  display: inline-block;
+  }
+
+.profile-button-container{
+  padding-left: 85vh;
+  padding-top: 5vh;
+  padding-bottom: -5vh;
+  display: inline-block;
+}
+
+.text-container{
+  padding-bottom: 5vh;
+}
 /*footer styles*/
 .site-footer
 {
