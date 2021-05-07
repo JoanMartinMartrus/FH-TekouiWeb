@@ -85,6 +85,22 @@ div.arrange-visit-container{
     border: none;
 }
 
+.btn-secondary{
+  background-color: #ab48cd;
+  text-align: center;
+  border: none;
+}
+
+.btn-secondary:hover{
+  background-color: #46006c;
+  text-align: center;
+  border: none;
+}
+
+.btn-secondary:focus{
+  background-color: #780e9b;
+}
+
 /*footer styles*/
 .site-footer
 {
