@@ -85,6 +85,19 @@ div.arrange-visit-container{
     border: none;
 }
 
+
+.btn-secondary{
+  background-color: #ab48cd;
+  text-align: center;
+  border: none;
+}
+
+.btn-secondary:hover{
+  background-color: #46006c;
+  text-align: center;
+  border: none;
+}
+
 .btn-outline-primary{
   background-color: #ab48cd;
   text-align: center;
@@ -97,6 +110,12 @@ div.arrange-visit-container{
   text-align: center;
   border: none;
 }
+
+
+.btn-secondary:focus{
+  background-color: #780e9b;
+}
+
 
 .list-group-item-primary{
   background-color: #7D92A3;
@@ -118,6 +137,7 @@ div.arrange-visit-container{
 .text-container{
   padding-bottom: 5vh;
 }
+
 /*footer styles*/
 .site-footer
 {
